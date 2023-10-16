@@ -78,3 +78,7 @@ geth --datadir data \
     --ws.api admin,eth,debug,miner,net,txpool,personal,web3,istanbul \
     --unlock ${ADDRESS} --allow-insecure-unlock --password ./data/keystore/accountPassword \
     --port 30304`
+
+## Reference
+Official Docs Quorum:
+https://docs.goquorum.consensys.net/tutorials/private-network/create-ibft-network
