@@ -4,7 +4,17 @@
 `./bin/tessera -configfile <pathToDirectory>/Tessera-0/config.json` 
 
 ## CAKESHOP:
-java -jar cakeshop-0.12.1.war --server.port=8081
+`java -jar cakeshop-0.12.1.war --server.port=8081`
+Visit: http://localhost:8081/
+
+## Running javascript console
+`geth attach geth.ipc`
+
+## Initialize Genesis file
+`geth --datadir data init data/genesis.json`
+
+## Adding ADDRESS variable
+`export ADDRESS=$(grep -o '"address": *"[^"]*"' ./data/keystore/accountKeystore | grep -o '"[^"]*"$' | sed 's/"//g')`
 
 ## Running NODE-0:
 `PRIVATE_CONFIG=/Users/paras/Documents/quorumNetwork/Tessera-0/tm.ipc 
