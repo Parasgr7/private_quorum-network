@@ -35,11 +35,11 @@ var bytecode =
   var simpleContract = web3.eth.contract(abi);
 
 var simple = simpleContract.new(
-  42,
+  142,
   {
     from: web3.eth.accounts[0],
     data: bytecode,
-    gas: 0x47b760,
+    gas: 0xFFFFFF,
     privateFor: ["ou8AM8hYhEvBlZC+FYnIzfb7RGyPCK4n87WPt9sMhkw="]
   },
   function (e, contract) {
