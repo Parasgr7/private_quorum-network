@@ -3,6 +3,7 @@
 /Node-2/data/geth/*
 /Node-3/data/geth/*
 /Node-4/data/geth/*
+/Node-5/data/geth/*
 
 /Tessera-0/db*
 /Tessera-1/db*
@@ -15,6 +16,7 @@
 /Node-2/.DS_Store
 /Node-3/.DS_Store
 /Node-4/.DS_Store
+/Node-5/.DS_Store
 
 /Tessera-0/.DS_Store
 /Tessera-1/.DS_Store
